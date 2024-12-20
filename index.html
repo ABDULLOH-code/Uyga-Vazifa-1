@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uyga Vazifa</title>
+</head>
+<body>
+    <h1>Asosiy Sahifa</h1>
+    <nav>
+        <a href="#mahsulotlar">Mahsulotlar</a> | 
+        <a href="#mijozlar">Mijozlar</a> | 
+        <a href="#buyurtmalar">Buyurtmalar</a>
+    </nav>
+
+    <h2>Umumiy Ma'lumotlar</h2>
+
+    <h3>Mahsulotlar Ro'yxati</h3>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>#</th>
+            <th>Nomi</th>
+            <th>Narxi</th>
+            <th>Kategoriya</th>
+            <th>Ombor miqdori</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Laptop</td>
+            <td>1500.00</td>
+            <td>Elektronika</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Smartfon</td>
+            <td>1000.00</td>
+            <td>Elektronika</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+    <h3>Mijozlar Ro'yxati</h3>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>#</th>
+            <th>Ism</th>
+            <th>Familiya</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>Valiyev</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jasur</td>
+            <td>Qosimov</td>
+        </tr>
+    </table>
+
+    <h3>Buyurtmalar Ro'yxati</h3>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>#</th>
+            <th>Mijoz</th>
+            <th>Mahsulot</th>
+            <th>Soni</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>Laptop</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jasur</td>
+            <td>Chair</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <div id="mahsulotlar">
+        <h2>Mahsulotlar</h2>
+        <h3>Yangi Mahsulot Qo'shish</h3>
+        <form>
+            <label for="mahsulot-nomi">Mahsulot nomi:</label>
+            <input type="text" id="mahsulot-nomi"><br><br>
+            <label for="narxi">Narxi:</label>
+            <input type="text" id="narxi"><br><br>
+            <button type="submit">Qo'shish</button>
+        </form>
+    </div>
+
+    <div id="mijozlar">
+        <h2>Mijozlar</h2>
+        <h3>Yangi Mijoz Qo'shish</h3>
+        <form>
+            <label for="ism">Ism:</label>
+            <input type="text" id="ism"><br><br>
+            <label for="familiya">Familiya:</label>
+            <input type="text" id="familiya"><br><br>
+            <button type="submit">Qo'shish</button>
+        </form>
+    </div>
+
+    <div id="buyurtmalar">
+        <h2>Buyurtmalar</h2>
+        <h3>Yangi Buyurtma Qo'shish</h3>
+        <form>
+            <label for="mijoz">Mijoz:</label>
+            <input type="text" id="mijoz"><br><br>
+            <label for="mahsulot">Mahsulot:</label>
+            <input type="text" id="mahsulot"><br><br>
+            <label for="soni">Soni:</label>
+            <input type="number" id="soni"><br><br>
+            <button type="submit">Qo'shish</button>
+        </form>
+    </div>
+</body>
+</html>
